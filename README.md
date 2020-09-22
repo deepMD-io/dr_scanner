@@ -10,7 +10,7 @@
 
 ## Contributors
 
-**[**Sercan DEMİRCİ**](https://personel.omu.edu.tr/tr/sercan.demirci)**, **[**Ali Murat ÇEVİK**](www.linkedin.com/in/alimcevik)** , **[**İrem Türkü ÇINAR**](https://www.linkedin.com/in/iremturkucinar/)**, **[**Ceyhun TÜZÜN**](https://www.linkedin.com/in/ceyhuntuzun/)**
+**[**Sercan DEMİRCİ**](https://personel.omu.edu.tr/tr/sercan.demirci)**, **[**Ali Murat ÇEVİK**](https://www.linkedin.com/in/alimcevik)** , **[**İrem Türkü ÇINAR**](https://www.linkedin.com/in/iremturkucinar/)**, **[**Ceyhun TÜZÜN**](https://www.linkedin.com/in/ceyhuntuzun/)**
 
 **Ondokuz Mayis University (OMU) - 2020
 Samsun, Turkey**
