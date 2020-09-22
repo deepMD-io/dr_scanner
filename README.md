@@ -84,7 +84,8 @@ The specially designed interface is as shown above so that all users of all ages
 ## More Info
 
 - Flutter Documentation [Flutter.dev](https://flutter.dev/docs/)
-
 - TFLite Documentation [TensorFlow Lite](https://www.tensorflow.org/lite)
 
+##  MIT LICENSE
+[MIT LICENSE](https://github.com/alimcevik/dr_scanner/blob/master/LICENSE)
 
