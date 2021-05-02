@@ -1,5 +1,3 @@
-// TODO: Camera does not work
-
 import 'dart:async';
 import 'dart:io';
 import 'package:camera/camera.dart';
@@ -14,7 +12,6 @@ class CameraExampleHome extends StatefulWidget {
   }
 }
 
-/// Returns a suitable camera icon for [direction].
 IconData getCameraLensIcon(CameraLensDirection direction) {
   switch (direction) {
     case CameraLensDirection.back:
@@ -53,7 +50,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    // App state changed before we got the chance to initialize.
     if (controller == null || !controller.value.isInitialized) {
       return;
     }
@@ -121,7 +117,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
     );
   }
 
-  /// Display the preview from the camera (or a message if the preview is not available).
   Widget _cameraPreviewWidget() {
     if (controller == null || !controller.value.isInitialized) {
       return const Text(
@@ -140,7 +135,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
     }
   }
 
-  /// Display the thumbnail of the captured image or video.
   Widget _thumbnailWidget() {
     return Expanded(
       child: Align(
@@ -234,7 +228,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
       enableAudio: enableAudio,
     );
 
-    // If the controller is updated then update the UI.
     controller.addListener(() {
       if (mounted) setState(() {});
       if (controller.value.hasError) {
@@ -426,7 +419,6 @@ class CameraApp extends StatelessWidget {
 List<CameraDescription> cameras = [];
 
 Future<void> main() async {
-  // Fetch the available cameras before initializing the app.
   try {
     WidgetsFlutterBinding.ensureInitialized();
     cameras = await availableCameras();

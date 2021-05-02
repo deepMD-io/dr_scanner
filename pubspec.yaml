@@ -21,7 +21,6 @@ dependencies:
   video_player: ^0.10.10
 
 
-
 flutter_icons:
   image_path: "assets/logoicon.png"  
   ios: true
