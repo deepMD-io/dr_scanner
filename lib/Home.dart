@@ -1,4 +1,4 @@
-import 'package:Diabetic_Retinopathy_Scanner/TestProcess.dart';
+import 'package:drscanner/TestProcess.dart';
 import 'package:flutter/material.dart';
 
 

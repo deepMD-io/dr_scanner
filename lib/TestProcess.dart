@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
 import 'package:circular_bottom_navigation/circular_bottom_navigation.dart';
-import 'package:Diabetic_Retinopathy_Scanner/TakePictureScreen.dart';
+import 'package:drscanner/TakePictureScreen.dart';
 
 class TestProcess extends StatefulWidget {
   TestProcess({Key key, this.title}) : super(key: key);
